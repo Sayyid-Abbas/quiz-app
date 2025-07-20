@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Which of the following is the correct syntax to output \"Hello, World!\" in C++?",
+        "allAnswers": [
+            "cout << Hello, World!;",
+            "printf(\"Hello, World!\")",
+            "Console.WriteLine(\"Hello, World!\");",
+            "cout << \"Hello, World!\";",
+            "echo(\"Hello, World!\");"
+        ],
+        "rightAnswer": "cout << \"Hello, World!\";"
+    },
+    {
+        "question": "What is the correct file extension for a C++ source file?",
+        "allAnswers": [
+            ".cpl",
+            ".py",
+            ".java",
+            ".cpp",
+            ".exe"
+        ],
+        "rightAnswer": ".cpp"
+    },
+    {
+        "question": "Which symbol is used to start a single-line comment in C++?",
+        "allAnswers": [
+            "#",
+            "//",
+            "--",
+            "/*",
+            "<!--"
+        ],
+        "rightAnswer": "//"
+    },
+    {
+        "question": "Which of the following is a valid variable declaration in C++?",
+        "allAnswers": [
+            "int = x;",
+            "x int = 5;",
+            "int x = 5;",
+            "declare x as int;",
+            "var int x = 5;"
+        ],
+        "rightAnswer": "int x = 5;"
+    },
+    {
+        "question": "Which keyword is used to define a constant in C++?",
+        "allAnswers": [
+            "permanent",
+            "const",
+            "define",
+            "final",
+            "let"
+        ],
+        "rightAnswer": "const"
+    }
+]
