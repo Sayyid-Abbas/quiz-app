@@ -222,7 +222,7 @@ function showResult() {
 
     let closeWindowButton = document.createElement("div");
     closeWindowButton.className = "close";
-    closeWindowButton.textContent = "Close Window";
+    closeWindowButton.textContent = "Close App";
 
     otherOptions.appendChild(againButton);
     otherOptions.appendChild(newLangButton);
