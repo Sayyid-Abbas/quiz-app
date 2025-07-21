@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Which of the following is the correct syntax to output \"Hello, World!\" in Java?",
+        "allAnswers": [
+            "Console.WriteLine(\"Hello, World!\");",
+            "System.out.println(\"Hello, World!\");",
+            "printf(\"Hello, World!\");",
+            "echo(\"Hello, World!\");",
+            "cout << \"Hello, World!\";"
+        ],
+        "rightAnswer": "System.out.println(\"Hello, World!\");"
+    },
+    {
+        "question": "What is the correct file extension for a Java source file?",
+        "allAnswers": [
+            ".java",
+            ".jav",
+            ".class",
+            ".js",
+            ".jv"
+        ],
+        "rightAnswer": ".java"
+    },
+    {
+        "question": "Which symbol is used to start a single-line comment in Java?",
+        "allAnswers": [
+            "#",
+            "//",
+            "--",
+            "/*",
+            "<!--"
+        ],
+        "rightAnswer": "//"
+    },
+    {
+        "question": "Which of the following is a valid variable declaration in Java?",
+        "allAnswers": [
+            "int = x;",
+            "int x = 5;",
+            "x int = 5;",
+            "let x = 5;",
+            "declare x as int;"
+        ],
+        "rightAnswer": "int x = 5;"
+    },
+    {
+        "question": "Which keyword is used to define a constant in Java?",
+        "allAnswers": [
+            "permanent",
+            "const",
+            "define",
+            "final",
+            "let"
+        ],
+        "rightAnswer": "final"
+    }
+]

@@ -22,7 +22,7 @@ document.addEventListener("click", (e) => {
 async function startQuiz(language) {
     if(!quizStarted) {
         document.body.innerHTML = "";
-        showSign();
+        showLoader();
         setTimeout( async() => {
             quizStarted = true;
             document.body.innerHTML = "";
@@ -106,7 +106,7 @@ function buildQuestions(data) {
     // Create timer
     let timer = document.createElement("div");
     timer.className = "timer";
-    timer.textContent = 10; 
+    timer.textContent = 20; 
 
     footer.appendChild(currentQuestionCounter);
     footer.appendChild(dots);
@@ -267,9 +267,9 @@ function clickButton(button) {
     }
 };
 
-// Show A Sign Before Starting The Quiz
-function showSign() {
-    let sign = document.createElement("div");
-    sign.className = "sign";
-    document.body.appendChild(sign);
+// Show A Loader Before Starting The Quiz
+function showLoader() {
+    let loader = document.createElement("div");
+    loader.className = "loader";
+    document.body.appendChild(loader);
 };

@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Which of the following is the correct syntax to change the text color to red in CSS?",
+        "allAnswers": [
+            "color: red;",
+            "text-color: red;",
+            "font-color: red;",
+            "text: red;",
+            "foreground-color: red;"
+        ],
+        "rightAnswer": "color: red;"
+    },
+    {
+        "question": "What is the correct file extension for a CSS file?",
+        "allAnswers": [
+            ".css",
+            ".scss",
+            ".style",
+            ".stylesheet",
+            ".cs"
+        ],
+        "rightAnswer": ".css"
+    },
+    {
+        "question": "Which symbol is used to start a comment in CSS?",
+        "allAnswers": [
+            "//",
+            "#",
+            "<!--",
+            "/*",
+            "-->"
+        ],
+        "rightAnswer": "/*"
+    },
+    {
+        "question": "Which of the following is a valid way to select an element with the class 'box' in CSS?",
+        "allAnswers": [
+            ".box",
+            "#box",
+            "box",
+            "*box",
+            "&box"
+        ],
+        "rightAnswer": ".box"
+    },
+    {
+        "question": "Which property is used to change the background color in CSS?",
+        "allAnswers": [
+            "bgcolor",
+            "background",
+            "background-color",
+            "color",
+            "background-style"
+        ],
+        "rightAnswer": "background-color"
+    }
+]

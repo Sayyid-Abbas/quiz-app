@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Which of the following is the correct syntax to display \"Hello, World!\" in HTML?",
+        "allAnswers": [
+            "<print>Hello, World!</print>",
+            "<?php echo 'Hello, World!'; ?>",
+            "<p>Hello, World!</p>",
+            "System.out.println(\"Hello, World!\");",
+            "cout << \"Hello, World!\";"
+        ],
+        "rightAnswer": "<p>Hello, World!</p>"
+    },
+    {
+        "question": "What is the correct file extension for an HTML file?",
+        "allAnswers": [
+            ".htm",
+            ".html",
+            ".xml",
+            ".xhtml",
+            ".php"
+        ],
+        "rightAnswer": ".html"
+    },
+    {
+        "question": "Which symbol is used to start an HTML comment?",
+        "allAnswers": [
+            "//",
+            "#",
+            "<!--",
+            "/*",
+            "-->"
+        ],
+        "rightAnswer": "<!--"
+    },
+    {
+        "question": "Which of the following is a valid HTML element?",
+        "allAnswers": [
+            "<h1>",
+            "<heading>",
+            "<h>",
+            "<header1>",
+            "<hl>"
+        ],
+        "rightAnswer": "<h1>"
+    },
+    {
+        "question": "Which tag is used to create a hyperlink in HTML?",
+        "allAnswers": [
+            "<link>",
+            "<href>",
+            "<a>",
+            "<url>",
+            "<hyperlink>"
+        ],
+        "rightAnswer": "<a>"
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Which of the following is the correct syntax to output \"Hello, World!\" in C#?",
+        "allAnswers": [
+            "Console.Write(\"Hello, World!\");",
+            "System.out.println(\"Hello, World!\");",
+            "cout << \"Hello, World!\";",
+            "echo(\"Hello, World!\");",
+            "print(\"Hello, World!\")"
+        ],
+        "rightAnswer": "Console.Write(\"Hello, World!\");"
+    },
+    {
+        "question": "What is the correct file extension for a C# source file?",
+        "allAnswers": [
+            ".cs",
+            ".csharp",
+            ".c#",
+            ".cpp",
+            ".java"
+        ],
+        "rightAnswer": ".cs"
+    },
+    {
+        "question": "Which symbol is used to start a single-line comment in C#?",
+        "allAnswers": [
+            "#",
+            "//",
+            "--",
+            "/*",
+            "<!--"
+        ],
+        "rightAnswer": "//"
+    },
+    {
+        "question": "Which of the following is a valid variable declaration in C#?",
+        "allAnswers": [
+            "int = x;",
+            "int x = 5;",
+            "x int = 5;",
+            "declare x as int;",
+            "let x = 5;"
+        ],
+        "rightAnswer": "int x = 5;"
+    },
+    {
+        "question": "Which keyword is used to define a constant in C#?",
+        "allAnswers": [
+            "permanent",
+            "const",
+            "define",
+            "final",
+            "let"
+        ],
+        "rightAnswer": "const"
+    }
+]

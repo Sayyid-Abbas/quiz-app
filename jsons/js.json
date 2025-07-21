@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Which of the following is the correct syntax to output \"Hello, World!\" in JavaScript?",
+        "allAnswers": [
+            "console.log(\"Hello, World!\");",
+            "print(\"Hello, World!\");",
+            "System.out.println(\"Hello, World!\");",
+            "echo(\"Hello, World!\");",
+            "cout << \"Hello, World!\";"
+        ],
+        "rightAnswer": "console.log(\"Hello, World!\");"
+    },
+    {
+        "question": "What is the correct file extension for a JavaScript file?",
+        "allAnswers": [
+            ".js",
+            ".javascript",
+            ".jv",
+            ".java",
+            ".script"
+        ],
+        "rightAnswer": ".js"
+    },
+    {
+        "question": "Which symbol is used to start a single-line comment in JavaScript?",
+        "allAnswers": [
+            "#",
+            "//",
+            "--",
+            "/*",
+            "<!--"
+        ],
+        "rightAnswer": "//"
+    },
+    {
+        "question": "Which of the following is a valid variable declaration in JavaScript?",
+        "allAnswers": [
+            "int x = 5;",
+            "var x = 5;",
+            "declare x = 5;",
+            "x := 5;",
+            "let int x = 5;"
+        ],
+        "rightAnswer": "var x = 5;"
+    },
+    {
+        "question": "Which keyword is used to declare a constant in JavaScript?",
+        "allAnswers": [
+            "const",
+            "constant",
+            "let",
+            "define",
+            "final"
+        ],
+        "rightAnswer": "const"
+    }
+]
