@@ -244,7 +244,7 @@ body > .loader {
 }
 @media (max-width: 767px) {
   .container.result .other-options > div {
-    font-size: 14px;
+    font-size: 12px;
   }
   .container.result .other-options > div:hover {
     background-color: #2795df;
