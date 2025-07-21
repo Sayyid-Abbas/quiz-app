@@ -135,7 +135,7 @@ function startCurrentQuiz(data) {
     let timing = setInterval(() => {
         timer.textContent--;
         if(timer.textContent == 0) {
-            handelDisplay(timeout);
+            handleDisplay(timeout);
             clearInterval(timing);
         }
     }, 1000);
@@ -150,9 +150,9 @@ function startCurrentQuiz(data) {
                 clearInterval(timing);
 
                 if(answer.textContent == data[currentQuestion - 1].rightAnswer) {
-                    handelDisplay(right);
+                    handleDisplay(right);
                 } else {
-                    handelDisplay(wrong);
+                    handleDisplay(wrong);
                 }
             }
         })
@@ -160,7 +160,7 @@ function startCurrentQuiz(data) {
 }
 
 // To handle displaying
-function handelDisplay(sign) {
+function handleDisplay(sign) {
     let container = document.querySelector(".container");
 
     document.body.style.pointerEvents = "none"; 
@@ -271,6 +271,5 @@ function clickButton(button) {
 function showSign() {
     let sign = document.createElement("div");
     sign.className = "sign";
-    sign.textContent = "Just a second";
     document.body.appendChild(sign);
 };

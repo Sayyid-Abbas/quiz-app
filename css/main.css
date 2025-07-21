@@ -16,15 +16,16 @@ body > .sign {
   left: 50%;
   top: 25%;
   transform: translateX(-50%);
-  background-color: #0079ca;
-  color: white;
-  font-size: 40px;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: fit-content;
-  padding: 20px 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-width: 4px;
+  border-color: #0079ca transparent #0079ca #0079ca;
+  border-style: solid;
+  animation-name: spin;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  animation-timing-function: linear;
 }
 /* End Global Rules */
 .welcome {
@@ -101,6 +102,13 @@ body > .sign {
   transform: translate(-50%, -50%);
   display: none;
   z-index: 99;
+}
+@media (max-width: 767px) {
+  .container .time-out, 
+  .container .wrong,
+  .container .right {
+    font-size: 18px;
+  }
 }
 .container .time-out,
 .container .wrong {
@@ -246,3 +254,13 @@ body > .sign {
     background-color: red;
   }
 }
+/* Start animation */
+@keyframes spin {
+  0% {
+    transform: translateX(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) rotate(360deg);
+  }
+}
+/* End animation */
